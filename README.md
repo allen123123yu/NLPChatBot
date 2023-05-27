@@ -18,7 +18,7 @@ Challenges:
 
 1. Not messing up the JSON file while editing
 2. Setting up clear goals; it's easy to get carried away
-3. Opening too many notebooks = turbo jet
+3. Opening too many notebooks/files = jet engine
 4. Couldn't find good datasets for police and firefighter.
 
 
