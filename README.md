@@ -7,6 +7,7 @@ Download 911 CA_Final.py and incentsca.json, change file location.
 
 To run the code, run, or enter "chatca()" after breaking.
 
+
 Challenges:
 
 
@@ -19,5 +20,7 @@ Setting up clear goals; it's easy to get carried away
 Opening too many notebooks = turbo jet
 
 Next steps:
+
 Include more layers, and/or splitting the big chatbot into more segments
+
 Figure out import process call function
