@@ -16,18 +16,13 @@ Challenges:
 
 
 
-Not messing up the JSON file while editing
-
-Setting up clear goals; it's easy to get carried away
-
-Opening too many notebooks = turbo jet
-
-Couldn't find good datasets for police and firefighter.
+1. Not messing up the JSON file while editing
+2. Setting up clear goals; it's easy to get carried away
+3. Opening too many notebooks = turbo jet
+4. Couldn't find good datasets for police and firefighter.
 
 
 
 Next steps:
-
-Include more layers, and/or splitting the big chatbot into more segments, and branch out to include non-home emergencies like traffic etc
-
-Find or collect more data
+1. Include more layers, and/or splitting the big chatbot into more segments, and branch out to include non-home emergencies like traffic etc
+2. Find or collect more data
