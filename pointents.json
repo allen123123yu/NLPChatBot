@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "Animal",
+      "patterns": [ "Crocodile", "Alligator", "Scorpion", "Tiger", "Elephant" ],
+      "responses": [ "Please do not aggravate the animal. Close your door and stay put. Help is on the way." ],
+      "context_set": ""
+    },
+    {
+      "tag": "Hello",
+      "patterns": [ "Hi", "Hello", "Hai", "Hallo", "Howdy" ],
+      "responses": [ "What is your police emergency?" ],
+      "context_set": ""
+    },
+    {
+      "tag": "Weapons",
+      "patterns": [ "Gun", "Knife", "Rifle", "Pistol", "Machette", "Bat", "Baseball Bat", "Shotgun" ],
+      "responses": [ "Please hide under the bed or in the closet or in the bathroom and stay silent. Help is on the way." ],
+      "context_set": ""
+    },
+    {
+      "tag": "Domestic Abuse",
+      "patterns": [ "Domestic Abuse" ],
+      "responses": [ "Please do not aggravate the animal. Help is on the way." ],
+      "context_set": ""
+    },
+    {
+      "tag": "Intruder",
+      "patterns": [ "Bad guy", "Terrorist", "Intruder", "Tresspass", "Thief", "Burgler", "Robbery", "Buglary", "Tresspasser", "Thieves", "Drunk" ],
+      "responses": [ "Please hide under the bed or in the closet or in the bathroom and stay silent. Help is on the way." ],
+      "context_set": ""
+    }
+  ]
+}

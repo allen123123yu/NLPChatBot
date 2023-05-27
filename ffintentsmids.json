@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "Combustible Materials",
+      "patterns": [
+        "Combustible material"
+      ],
+      "responses": [
+        "There are several types of fire extinguishers that can be used on Class A fires, such as water, foam, MultiCHEM, powder, and wet chemical. If you are not confident, please evacuate the area; firefighters are on their way."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fire",
+      "patterns": [
+        "Fire"
+      ],
+      "responses": [
+        "If it is a regular fire, try to put it out with a fire extinguisher. If it is beyond your scope, please evacuate the area and wait for firefighters."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Flammable Liquids",
+      "patterns": [
+        "Flammable liquids"
+      ],
+      "responses": [
+        "Fire extinguishers suitable for Class B fires include MultiCHEM, foam, powder, and CO2 extinguishers. If you are not confident, please evacuate the area; firefighters are on their way."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Burning Metals",
+      "patterns": [
+        "Burning metals"
+      ],
+      "responses": [
+        "Only specialized fire extinguishers, such as the L2 fire extinguisher, are suitable for use on burning metals fires. If you do not have one, please evacuate the area; firefighters are on their way."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Electrical Fires",
+      "patterns": [
+        "Electrical fires"
+      ],
+      "responses": [
+        "Only powder (for electrical currents under 1000V) and CO2 fire extinguishers are suitable for electrical fires, as they do not rely on a liquid agent. If you do not have one, please evacuate the area; firefighters are on their way."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cooking Oils and Fats",
+      "patterns": [
+        "Cooking oils and fats", "cooking", "oil", "fat"
+      ],
+      "responses": [
+        "If the fire is small, please smother it. Otherwise, multiCHEM, water mist, and wet chemical fire extinguishers are essential in settings that use cooking oils and fats. If you don't have any of those, please evacuate the area; firefighters are on their way."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Smoke",
+      "patterns": [
+        "I can smell smoke!",
+        "There's smoke in the building!",
+        "Something is burning, and I see smoke!"
+      ],
+      "responses": [
+        "If you detect smoke, it's important to evacuate the area immediately. Remember to stay low to avoid inhaling smoke, and alert the fire department as soon as possible. Your safety is our top priority."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Emergency Exits",
+      "patterns": [
+        "emergency exits?"
+      ],
+      "responses": [
+        "During an emergency, please follow the emergency exit signs and proceed to the nearest exit. If smoke is present, stay low and crawl if necessary. Do not use elevators. Once outside, move to a safe distance from the building and await further instructions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fallback",
+      "patterns": [
+        "I need help!",
+        "What should I do?",
+        "Emergency assistance required!",
+        "Help me!"
+      ],
+      "responses": [
+        "Please stay calm and move towards the nearest exit. Firefighters are on the way."
+      ],
+      "context_set": ""
+    }
+  ]
+}
